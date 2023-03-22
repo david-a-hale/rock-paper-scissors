@@ -38,7 +38,7 @@ function playRound(playerSelection, computerSelection) {
 const playerSelection = getPlayerChoice()
 const computerSelection = getComputerChoice()
 
-function game() {
+function playGame() {
     console.log(playRound(playerSelection, computerSelection));
     console.log(playRound(playerSelection, computerSelection));
     console.log(playRound(playerSelection, computerSelection));
@@ -46,4 +46,4 @@ function game() {
     console.log(playRound(playerSelection, computerSelection));
 }
 
-console.log(game());
+console.log(playGame());
