@@ -46,4 +46,4 @@ function game() {
     console.log(playRound(playerSelection, computerSelection));
 }
 
-console.log(game);
+console.log(game());
