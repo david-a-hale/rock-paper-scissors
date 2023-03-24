@@ -39,11 +39,9 @@ const playerSelection = getPlayerChoice()
 const computerSelection = getComputerChoice()
 
 function playGame() {
-    console.log(playRound(playerSelection, computerSelection));
-    console.log(playRound(playerSelection, computerSelection));
-    console.log(playRound(playerSelection, computerSelection));
-    console.log(playRound(playerSelection, computerSelection));
-    console.log(playRound(playerSelection, computerSelection));
+    for (let i = 1; i < 6; i++) {
+        console.log(playRound(playerSelection, computerSelection));
+    }
 }
 
 console.log(playGame());
